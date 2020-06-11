@@ -1,9 +1,13 @@
-// Arguments Optional
-
-// https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/arguments-optional
-
-// Create a function that sums two arguments together.
-// If only one argument is provided, then return a function that expects one argument and returns the sum.
+/*
+Title: Arguments Optional
+*/
+/* 
+Link: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/arguments-optional
+*/
+/*
+Resume: Create a function that sums two arguments together. 
+        If only one argument is provided, then return a function that expects one argument and returns the sum.
+*/
 
 function addTogether(...args) {
   let arr = [...args];

@@ -18,7 +18,9 @@ function truthCheck(collection, pre) {
 
 function truthy(collection, value) {
     for (let item in collection) {
-        if (collection[item].hasOwnProperty(value) && collection[item][value]) {} 
+        if (collection[item].hasOwnProperty(value) && collection[item][value]) {
+            continue;
+        } 
         else {
             return false;
         }
